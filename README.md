@@ -78,4 +78,4 @@ The structure should be like this:
 To be prepared
 
 ## Acknowledgment
-Thanks for the authors of [MAML++](https://github.com/AntreasAntoniou/HowToTrainYourMAMLPytorch) and [ALFA](https://github.com/baiksung/ALFA), which our work is based on, for their great implementations.
+Thanks to the authors of [MAML++](https://github.com/AntreasAntoniou/HowToTrainYourMAMLPytorch) and [ALFA](https://github.com/baiksung/ALFA), which our work is based on, for their great implementations.
