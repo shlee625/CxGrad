@@ -65,7 +65,7 @@ The structure should be like this:
    ```
 - Otherwise for tieredImageNet, run
   ```
-   bash tiered_imagenet_Nway_Kshot/CxGrad_4conv.sh
+   bash tiered_imagenet_Nway_Kshot/CxGrad_4conv.sh GPU_ID
   ```
 
 ### Test
