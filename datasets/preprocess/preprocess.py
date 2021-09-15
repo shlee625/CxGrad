@@ -50,7 +50,8 @@ def CUB():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--datasets', type=str, nargs='+', choices=['mini_imagenet, tiered_imagenet, CIFAR_FS, CUB'], 
+    parser.add_argument('--datasets', type=str, nargs='+', 
+                        choices=['mini_imagenet', 'tiered_imagenet', 'CIFAR_FS', 'CUB'], 
                         help='Dataset name to preprocess.')
     args = parser.parse_args()
 
