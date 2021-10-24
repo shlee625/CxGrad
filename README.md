@@ -1,11 +1,10 @@
 # CxGrad - Official PyTorch Implementation
 > **Contextual Gradient Scaling for Few-Shot Learning**<br>
 > **Sanghyuk Lee**, Seunghyun Lee, and Byung Cheol Song<br>
-> In WACV 2022. (Paper link will be provided soon)<br>
+> In WACV 2022.<br>
+Paper: [https://arxiv.org/abs/2110.10353](https://arxiv.org/abs/2110.10353)<br>
 
 <!-- > **Abstract:** *Model-agnostic meta-learning (MAML) is a well-known optimization-based meta-learning algorithm that works well in various computer vision tasks, e.g., few-shot classification. MAML is to learn an initialization so that a model can adapt to a new task in a few steps. However, since the gradient norm of a classifier (head) is much bigger than those of backbone layers, the model focuses on learning the decision boundary of the classifier with similar representation. Furthermore, gradient norms of high-level layers are small than those of the other layers. So, the backbone of MAML usually learns task-generic features, which results in deteriorated adaptation performance in the inner-loop. To resolve or mitigate this problem, we propose contextual gradient scaling (CxGrad), which scales gradient norms of the backbone to facilitate learning task-specific knowledge in the inner-loop. Since the scaling factors are generated from task-conditioned parameters, gradient norms of the backbone can be scaled in a task-wise fashion. Experimental results show that CxGrad effectively encourages the backbone to learn task-specific knowledge in the inner-loop and improves the performance of MAML up to a significant margin in both same- and cross-domain few-shot classification.* -->
-
-This repository is an official PyTorch implementation for "Contextual Gradient Scaling for Few-Shot Learning" in WACV 2022.
 
 ## Installation
 This code is based on PyTorch. Please make a virtual environment and use it by running the command below:
@@ -77,5 +76,5 @@ The structure should be like this:
 ## Citation
 To be prepared
 
-## Acknowledgment
+## Acknowledgments
 Thanks to the authors of [MAML++](https://github.com/AntreasAntoniou/HowToTrainYourMAMLPytorch) and [ALFA](https://github.com/baiksung/ALFA), which our work is based on, for their great implementations.
