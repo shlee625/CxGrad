@@ -74,7 +74,14 @@ The structure should be like this:
   ```
 
 ## Citation
-To be prepared
+```
+@article{lee2021contextual,
+  title={Contextual Gradient Scaling for Few-Shot Learning},
+  author={Lee, Sanghyuk and Lee, Seunghyun and Song, Byung Cheol},
+  journal={arXiv preprint arXiv:2110.10353},
+  year={2021}
+}
+```
 
 ## Acknowledgments
 Thanks to the authors of [MAML++](https://github.com/AntreasAntoniou/HowToTrainYourMAMLPytorch) and [ALFA](https://github.com/baiksung/ALFA), which our work is based on, for their great implementations.
