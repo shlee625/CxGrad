@@ -75,11 +75,12 @@ The structure should be like this:
 
 ## Citation
 ```
-@article{lee2021contextual,
+@inproceedings{lee2022contextual,
   title={Contextual Gradient Scaling for Few-Shot Learning},
   author={Lee, Sanghyuk and Lee, Seunghyun and Song, Byung Cheol},
-  journal={arXiv preprint arXiv:2110.10353},
-  year={2021}
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={834--843},
+  year={2022}
 }
 ```
 
